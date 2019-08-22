@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+
+}
+nav {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  overflow: scroll;
+  color: #424949;
+  height: 610px;
+}
+nav h1 {
+  color: black;
+}
+nav h1,
+nav li {
+  border-bottom: 1px black solid;
+  border-right: 1px black solid;
+  padding: 15px 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+nav a {
+  text-decoration: none;
+    color: #424949;
+}
+nav a:visited{
+  color: #424949;
+}
+main {
+  width: 70%;;
+  height: 610px;
+  overflow: scroll;
+}
+
+.main-section {
+  margin: 40px;
+}
+.main-section h2,
+.main-section p,
+.main-section li{
+  padding-bottom: 20px;
+}
+.main-section p,
+.main-section li {
+  color: #424949;
+}
+.main-section ul  {
+  padding-left: 20px;
+}
+.main-section .formula {
+  background-color: #F0F3F4;
+  width: 80%;
+  margin: 0 auto;
+}
+.formula p {
+  padding: 10px;
+}
+.formula p:last-of-type {
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 480px) {
+  .main-section .formula {
+    background-color: red;
+  }
+}
